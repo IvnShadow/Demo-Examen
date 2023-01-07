@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>Demo Suma</title>
+</head>
+<script type="text/javascript">
+    function Suma(){
+        numeros = []
+        suma = 0
+        i = 0
+        while(i<2){
+            numeros[i] = parseFloat(prompt("Ingrese un valor"))
+            suma = suma + numeros[i]
+            i++
+        }
+        alert("La suma es: "+suma)
+    }
+</script>
+<body>
+    <h1>Programa para ejecutar la suma</h1>
+    <button onclick="Suma()">Iniciar</button>
+</body>
+</html>
